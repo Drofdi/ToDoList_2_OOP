@@ -1,0 +1,165 @@
+* {
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background: url(img/background.jpg);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.main {
+    width: 66%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    color: aliceblue;
+    font-size: 55px;
+    padding-top: 15%;
+}
+
+.title div{
+    margin-left: auto;
+}
+
+.butDarkLigth {
+    align-self: center;
+    width: 55px;
+    height: 55px;
+    margin-left: auto;
+    border: none;
+    background: none;
+}
+
+.butDarkLigth:hover {
+    border-radius: 0.4rem;
+    background-color: white;
+}
+
+.butDarkLigth img {
+    width: 55px;
+    height: 55px;
+}
+
+.title__subTitle {
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(181, 220, 255);
+}
+
+.darkTheme {
+    background: url(img/backgroundDark.jpg);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.input {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.input__inp {
+    font-size: 32px;
+    border-radius: 0.4rem;
+    background-color: rgb(228, 228, 228);
+    padding-left: 10px;
+    border: none;
+    height: 35px;
+}
+
+.input__date {
+    font-size: 20px;
+    margin-left: 1%;
+    padding-right: 5px;
+}
+
+.input__button {
+    background: transparent;
+    border: none;
+    width: 40px;
+    height: 35px;
+    border-radius: 0.4rem;
+    margin-left: 10px;
+}
+
+.input__button:hover{
+    background-color: rgb(145, 145, 145);
+}
+
+.input__buttonDark {
+    background-color: aliceblue;
+}
+
+.input__button img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.list_parent {
+    padding-top: 30px;
+    margin: auto;
+    font-size: 20px;
+    width: 100%;
+}
+
+.list_parentDark {
+    color: aliceblue;
+}
+
+.list_container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.butDone {
+    margin-left: auto;
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 0.2rem;
+}
+
+.butDone:hover {
+    background-color: aliceblue;
+}
+
+.butDone img {
+    width: 38px;
+    height: 38px;
+}
+
+.butDoneAfterClick {
+    text-decoration: line-through;
+}
+
+.butDelete {
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding-left: 3px;
+    border-radius: 4;
+    border-radius: 0.4rem;
+}
+
+.butDelete:hover {
+    background-color: aliceblue;
+}
+
+.butDelete img {
+    width: 38px;
+    height: 38px;
+}
